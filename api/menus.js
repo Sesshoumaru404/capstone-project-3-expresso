@@ -23,7 +23,7 @@ menusRouter.param('menuId', (req, res, next, id) => {
 	})
 });
 
-// Menu routes 
+// Menu items routes 
 menusRouter.use('/:menuId/menu-items', itemsRouter);
 
 // Get all of Current Menus  
